@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+}
+.about-text {
+  flex: 1;
+}
+.about-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.about-text p {
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+.about-text button {
+  padding: 10px 20px;
+  background: #ff6b00;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-text button:hover {
+  background: #e65c00;
+}
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
